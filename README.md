@@ -11,6 +11,7 @@
 The Distributed File System (DFS) is a file system with data stored on a server. The data is accessed and processed as if it was stored on the local client machine. The DFS makes it convenient to share information and files among users on a network.Files will be hosted remotely on one or more storage servers. Separately, a single naming server will index the files, indicating which one is stored where. When a client wishes to access a file, it first contacts the naming server to obtain information about the storage server hosting it. After that, it communicates directly with the storage server to complete the operation.
 
 ## How to use the file system
+[The vm that hosted the system is turned off. Contact @MatrosovaTalia, if you need to use it.]
 
 run the following command in console: 
 ```dif
